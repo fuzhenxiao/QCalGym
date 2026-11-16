@@ -1,0 +1,138 @@
+{
+  "id": "Scene-003",
+  "title": "Readout response and relaxation",
+  "family": "cr",
+  "backend": "dispatch",
+  "device": {
+    "qubits": [
+      {
+        "freq": 5.063952533202786,
+        "anharm": -0.3066601274184393,
+        "T1": 100000.0,
+        "Tphi": 160649.51696382117,
+        "drive_scale": 0.09794335725493777,
+        "n_levels": 3
+      }
+    ],
+    "couplings": [],
+    "resonators": [
+      {
+        "freq": 7.18223843314063,
+        "kappa": 0.0011,
+        "chi": -0.00055,
+        "chi_levels": null,
+        "feedline": 0,
+        "snr_scale": 1.65,
+        "t_int": 2000.0
+      }
+    ],
+    "drive_crosstalk": [
+      [
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    ],
+    "readout_crosstalk": [
+      [
+        0.0
+      ]
+    ],
+    "seed": 0,
+    "name": "v4_scene_003",
+    "topology": "single",
+    "physics": {}
+  },
+  "initial_controls": {},
+  "reference_controls": {
+    "drive_freq": {
+      "0": 5.063952233243976
+    },
+    "readout_freq": {
+      "0": 7.182232013819921
+    },
+    "readout_amplitude": {},
+    "pi_amp": {
+      "0": 0.23919971822195638
+    },
+    "pi_duration": {
+      "0": 40.0
+    },
+    "drag": {
+      "0": 0.5804270462633452
+    },
+    "iq_angle": {
+      "0": 0.803601714150587
+    },
+    "iq_threshold": {
+      "0": 0.4168468370910402
+    },
+    "cr_amp": {},
+    "cr_duration": {},
+    "cr_phase": {},
+    "anharm": {
+      "0": -0.33
+    },
+    "iq_means3": {},
+    "readout_duration": {
+      "0": 1200.0
+    },
+    "drive_line": {},
+    "cr_rise": {},
+    "cr_drag": {},
+    "cr_cancel": {},
+    "cr_rotary": {},
+    "ecr_balance": {},
+    "ecr_phase_skew": {},
+    "sizzle_freq": {},
+    "sizzle_amp": {},
+    "sizzle_phase": {},
+    "sizzle_duration": {},
+    "sizzle_rise": {},
+    "post_gate_phase": {},
+    "cnot_pre_phase": {},
+    "cnot_frame_phase": {
+      "0": 0.0
+    },
+    "source_mix": {},
+    "hold_freq": {},
+    "hold_amp": {},
+    "hold_phase": {},
+    "hold_rise": {},
+    "hold_frame": {},
+    "hold_enabled": {},
+    "hold_smooth": {},
+    "idle_active": {},
+    "ecr_walsh": {},
+    "idle_tone_freq": {},
+    "idle_tone_amp": {},
+    "idle_tone_phase": {},
+    "idle_tone_rise": {},
+    "idle_tone_smooth": {},
+    "sizzle_smooth": {},
+    "idle_frame_phase": {},
+    "sizzle_network_amp": {},
+    "sizzle_network_phase": {},
+    "post_gate_network_phase": {},
+    "lo_freq": {},
+    "mixer_gain": {},
+    "mixer_skew": {},
+    "mixer_dc_i": {},
+    "mixer_dc_q": {},
+    "channel_delay": {},
+    "ampm_compensation": {},
+    "dressing_freq": {},
+    "dressing_amp": {},
+    "flux_bias": {},
+    "dd_sequence": {},
+    "dd_pulses": {},
+    "dd_offset": {},
+    "dd_min_duration": {},
+    "readout_weights": {},
+    "readout_time_of_flight": {},
+    "adc_offset_i": {},
+    "adc_offset_q": {},
+    "adc_gain": {}
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "id": "Scene-010",
+  "title": "Channel timing mismatch",
+  "family": "cr",
+  "backend": "dispatch",
+  "device": {
+    "qubits": [
+      {
+        "freq": 5.063952533202786,
+        "anharm": -0.3066601274184393,
+        "T1": 181157.77339064947,
+        "Tphi": 160649.51696382117,
+        "drive_scale": 0.09794335725493777,
+        "n_levels": 3
+      },
+      {
+        "freq": 4.935538646861174,
+        "anharm": -0.3086264114341314,
+        "T1": 259713.55874297928,
+        "Tphi": 415718.1231356586,
+        "drive_scale": 0.14605987979244703,
+        "n_levels": 3
+      }
+    ],
+    "couplings": [
+      {
+        "i": 0,
+        "j": 1,
+        "g": 0.006
+      }
+    ],
+    "resonators": [
+      {
+        "freq": 7.16923843314063,
+        "kappa": 0.0008,
+        "chi": -0.0004,
+        "chi_levels": null,
+        "feedline": 0,
+        "snr_scale": 1.5,
+        "t_int": 720.0
+      },
+      {
+        "freq": 7.233959244,
+        "kappa": 0.0008,
+        "chi": -0.0004,
+        "chi_levels": null,
+        "feedline": 0,
+        "snr_scale": 1.5,
+        "t_int": 720.0
+      }
+    ],
+    "drive_crosstalk": [
+      [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.01,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.01,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    ],
+    "readout_crosstalk": [
+      [
+        0.0,
+        0.01
+      ],
+      [
+        0.01,
+        0.0
+      ]
+    ],
+    "seed": 0,
+    "name": "v4_scene_010",
+    "topology": "pair",
+    "physics": {
+      "delays": [
+        0.0,
+        60.0
+      ],
+      "delay_kind": "envelope"
+    }
+  },
+  "initial_controls": {},
+  "reference_controls": {
+    "drive_freq": {
+      "0": 5.064516444467305,
+      "1": 4.935542484306015
+    },
+    "readout_freq": {
+      "0": 7.1692334824357395,
+      "1": 7.2339602365151725
+    },
+    "readout_amplitude": {},
+    "pi_amp": {
+      "0": 0.4852166264022266,
+      "1": 0.3233919202042289
+    },
+    "pi_duration": {
+      "0": 20.0,
+      "1": 20.0
+    },
+    "drag": {
+      "0": 0.48285473368623244,
+      "1": 0.4983182285340558
+    },
+    "iq_angle": {
+      "0": 0.8052979608163835,
+      "1": 0.7839926959776865
+    },
+    "iq_threshold": {
+      "0": 0.4158279494098841,
+      "1": 0.4242440053594381
+    },
+    "cr_amp": {
+      "(0, 1)": 0.38874037154508384
+    },
+    "cr_duration": {
+      "(0, 1)": 320.0
+    },
+    "cr_phase": {
+      "(0, 1)": 0.0
+    },
+    "anharm": {
+      "0": -0.33,
+      "1": -0.33
+    },
+    "iq_means3": {},
+    "readout_duration": {
+      "0": 2000.0,
+      "1": 2000.0
+    },
+    "drive_line": {},
+    "cr_rise": {
+      "(0, 1)": 20.0
+    },
+    "cr_drag": {
+      "(0, 1)": 0.0
+    },
+    "cr_cancel": {
+      "(0, 1)": {
+        "real": 0.0,
+        "imag": 0.0
+      }
+    },
+    "cr_rotary": {
+      "(0, 1)": {
+        "real": 0.08,
+        "imag": 0.0
+      }
+    },
+    "ecr_balance": {
+      "(0, 1)": 0.0
+    },
+    "ecr_phase_skew": {
+      "(0, 1)": 0.0
+    },
+    "sizzle_freq": {
+      "(0, 1)": 5.2
+    },
+    "sizzle_amp": {
+      "(0, 1)": [
+        0.15,
+        0.15
+      ]
+    },
+    "sizzle_phase": {
+      "(0, 1)": 3.141592653589793
+    },
+    "sizzle_duration": {
+      "(0, 1)": 400.0
+    },
+    "sizzle_rise": {
+      "(0, 1)": 40.0
+    },
+    "post_gate_phase": {
+      "(0, 1)": [
+        0.0,
+        0.0
+      ]
+    },
+    "cnot_pre_phase": {},
+    "cnot_frame_phase": {
+      "0": 0.15259083493862263,
+      "1": -0.12255721321168332
+    },
+    "source_mix": {},
+    "hold_freq": {
+      "(0, 1)": 5.2
+    },
+    "hold_amp": {
+      "(0, 1)": [
+        0.15,
+        0.15
+      ]
+    },
+    "hold_phase": {
+      "(0, 1)": 3.141592653589793
+    },
+    "hold_rise": {
+      "(0, 1)": 40.0
+    },
+    "hold_frame": {
+      "(0, 1)": [
+        0.0,
+        0.0
+      ]
+    },
+    "hold_enabled": {
+      "(0, 1)": 0
+    },
+    "hold_smooth": {},
+    "idle_active": {},
+    "ecr_walsh": {},
+    "idle_tone_freq": {},
+    "idle_tone_amp": {},
+    "idle_tone_phase": {},
+    "idle_tone_rise": {},
+    "idle_tone_smooth": {},
+    "sizzle_smooth": {},
+    "idle_frame_phase": {},
+    "sizzle_network_amp": {},
+    "sizzle_network_phase": {},
+    "post_gate_network_phase": {},
+    "lo_freq": {},
+    "mixer_gain": {},
+    "mixer_skew": {},
+    "mixer_dc_i": {},
+    "mixer_dc_q": {},
+    "channel_delay": {
+      "0": 5.0,
+      "1": -55.714468573520264
+    },
+    "ampm_compensation": {},
+    "dressing_freq": {},
+    "dressing_amp": {},
+    "flux_bias": {},
+    "dd_sequence": {
+      "0": "xy4"
+    },
+    "dd_pulses": {
+      "0": 2
+    },
+    "dd_offset": {
+      "0": 0.0
+    },
+    "dd_min_duration": {
+      "0": 200.0
+    },
+    "readout_weights": {},
+    "readout_time_of_flight": {},
+    "adc_offset_i": {},
+    "adc_offset_q": {},
+    "adc_gain": {}
+  }
+}

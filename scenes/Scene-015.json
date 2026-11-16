@@ -1,0 +1,279 @@
+{
+  "id": "Scene-015",
+  "title": "Flux crosstalk",
+  "family": "flux_cz",
+  "backend": "flux",
+  "device": {
+    "qubits": [
+      {
+        "freq": 5.4,
+        "anharm": -0.25,
+        "T1": 181157.77339064947,
+        "Tphi": 160649.51696382117,
+        "drive_scale": 0.09794335725493777,
+        "n_levels": 3
+      },
+      {
+        "freq": 5.2,
+        "anharm": -0.25,
+        "T1": 259713.55874297928,
+        "Tphi": 415718.1231356586,
+        "drive_scale": 0.14605987979244703,
+        "n_levels": 3
+      }
+    ],
+    "couplings": [
+      {
+        "i": 0,
+        "j": 1,
+        "g": 0.0038
+      }
+    ],
+    "resonators": [
+      {
+        "freq": 7.16923843314063,
+        "kappa": 0.0008,
+        "chi": -0.0004,
+        "chi_levels": null,
+        "feedline": 0,
+        "snr_scale": 1.5,
+        "t_int": 720.0
+      },
+      {
+        "freq": 7.233959244,
+        "kappa": 0.0008,
+        "chi": -0.0004,
+        "chi_levels": null,
+        "feedline": 0,
+        "snr_scale": 1.5,
+        "t_int": 720.0
+      }
+    ],
+    "drive_crosstalk": null,
+    "readout_crosstalk": null,
+    "seed": 0,
+    "name": "v4_scene_015",
+    "topology": "pair",
+    "physics": {
+      "flux_coupler": {
+        "kind": "flux_coupler_tunable_transmon",
+        "qubit_flux": [
+          {
+            "ej_max": 15.961250000000001,
+            "ec": 0.25,
+            "asymmetry": 0.45,
+            "offset": 0.0,
+            "bias_min": -0.45,
+            "bias_max": 0.45
+          },
+          {
+            "ej_max": 14.85125,
+            "ec": 0.25,
+            "asymmetry": 0.45,
+            "offset": 0.0,
+            "bias_min": -0.45,
+            "bias_max": 0.45
+          }
+        ],
+        "coupler_flux": {
+          "ej_max": 32.4,
+          "ec": 0.2,
+          "asymmetry": 0.3,
+          "offset": 0.0,
+          "bias_min": -0.45,
+          "bias_max": 0.45
+        },
+        "g": [
+          0.08,
+          0.085
+        ],
+        "coupling_reference": [
+          5.4,
+          5.2,
+          7.0
+        ],
+        "coupler_T1": 100000.0,
+        "coupler_Tphi": 200000.0,
+        "flux_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.12
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "line_tau": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "noise_std": 0.0,
+        "noise_direction": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "initial_controls": {},
+  "reference_controls": {
+    "drive_freq": {
+      "0": 5.396008401209144,
+      "1": 5.195994941778949
+    },
+    "readout_freq": {
+      "0": 7.169038386457624,
+      "1": 7.23375841359144
+    },
+    "readout_amplitude": {
+      "0": 1.0,
+      "1": 1.0
+    },
+    "pi_amp": {
+      "0": 0.2391243787279848,
+      "1": 0.16016815861263708
+    },
+    "pi_duration": {
+      "0": 40.0,
+      "1": 40.0
+    },
+    "drag": {
+      "0": -0.5782289114455721,
+      "1": -0.5792227204783258
+    },
+    "iq_angle": {
+      "0": 1.5722235793096901,
+      "1": 1.5743804773788201
+    },
+    "iq_threshold": {
+      "0": -0.014493598764825366,
+      "1": -0.016435553185537244
+    },
+    "cr_amp": {},
+    "cr_duration": {},
+    "cr_phase": {},
+    "anharm": {
+      "0": -0.24922077922077923,
+      "1": -0.24941798941798943
+    },
+    "iq_means3": {},
+    "readout_duration": {
+      "0": 1000.0,
+      "1": 1000.0
+    },
+    "drive_line": {},
+    "cr_rise": {},
+    "cr_drag": {},
+    "cr_cancel": {},
+    "cr_rotary": {},
+    "ecr_balance": {},
+    "ecr_phase_skew": {},
+    "sizzle_freq": {},
+    "sizzle_amp": {},
+    "sizzle_phase": {},
+    "sizzle_duration": {},
+    "sizzle_rise": {},
+    "post_gate_phase": {},
+    "cnot_pre_phase": {},
+    "cnot_frame_phase": {},
+    "source_mix": {},
+    "hold_freq": {},
+    "hold_amp": {},
+    "hold_phase": {},
+    "hold_rise": {},
+    "hold_frame": {},
+    "hold_enabled": {},
+    "hold_smooth": {},
+    "idle_active": {},
+    "ecr_walsh": {},
+    "idle_tone_freq": {},
+    "idle_tone_amp": {},
+    "idle_tone_phase": {},
+    "idle_tone_rise": {},
+    "idle_tone_smooth": {},
+    "sizzle_smooth": {},
+    "idle_frame_phase": {},
+    "sizzle_network_amp": {},
+    "sizzle_network_phase": {},
+    "post_gate_network_phase": {},
+    "lo_freq": {},
+    "mixer_gain": {},
+    "mixer_skew": {},
+    "mixer_dc_i": {},
+    "mixer_dc_q": {},
+    "channel_delay": {},
+    "ampm_compensation": {},
+    "dressing_freq": {},
+    "dressing_amp": {},
+    "flux_bias": {
+      "0": 0.0,
+      "1": 0.0
+    },
+    "dd_sequence": {},
+    "dd_pulses": {},
+    "dd_offset": {},
+    "dd_min_duration": {},
+    "readout_weights": {},
+    "readout_time_of_flight": {},
+    "adc_offset_i": {},
+    "adc_offset_q": {},
+    "adc_gain": {},
+    "coupler_flux_bias": {
+      "0": 0.0
+    },
+    "flux_mix": {
+      "0": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.12161681805238982
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "flux_inverse_tau": {},
+    "flux_inverse_tail": {},
+    "native_flux_gate": {
+      "0": {
+        "mode": "baseband_cz",
+        "duration": 147.0976,
+        "amplitudes": [
+          0.0,
+          0.0649865003872576,
+          0.27
+        ],
+        "rise_fractions": [
+          0.0,
+          0.05,
+          0.3
+        ],
+        "frequency": 0.0,
+        "phase": 0.0,
+        "settle": 0.0,
+        "frames": [
+          2.167708357615103,
+          2.5938492589763875
+        ]
+      }
+    }
+  }
+}

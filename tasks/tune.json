@@ -1,0 +1,791 @@
+[
+  {
+    "id": "T2R-Scene-004-P1-01",
+    "scene": "Scene-004",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.12854456824512536
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-004-P3-01",
+    "scene": "Scene-004",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.12854456824512536
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.3006818645240545
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.7189775046210303
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-004-P5-01",
+    "scene": "Scene-004",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.12854456824512536
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.3006818645240545
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.7189775046210303
+      },
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": 2.024803302959351
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.495
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-010-P1-01",
+    "scene": "Scene-010",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "channel_delay",
+        "index": "1",
+        "path": [],
+        "after": -21.51446857352027
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-010-P3-01",
+    "scene": "Scene-010",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "channel_delay",
+        "index": "1",
+        "path": [],
+        "after": -21.51446857352027
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.2820761629070447
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.6440166791944728
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-010-P5-01",
+    "scene": "Scene-010",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "channel_delay",
+        "index": "1",
+        "path": [],
+        "after": -21.51446857352027
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.2820761629070447
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.6440166791944728
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 7.0
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-026-P1-01",
+    "scene": "Scene-026",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-026-P3-01",
+    "scene": "Scene-026",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.182143247107823
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.5577203981752947
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-026-P5-01",
+    "scene": "Scene-026",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.182143247107823
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.5577203981752947
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 480.0
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.3384830743512282
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-002-P1-01",
+    "scene": "Scene-002",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-002-P3-01",
+    "scene": "Scene-002",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0722021441238985
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-002-P5-01",
+    "scene": "Scene-002",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0722021441238985
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-006-P1-01",
+    "scene": "Scene-006",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "source_mix",
+        "index": "0",
+        "path": [
+          1,
+          0
+        ],
+        "after": 0.9135542444272665
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-006-P3-01",
+    "scene": "Scene-006",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "source_mix",
+        "index": "0",
+        "path": [
+          1,
+          0
+        ],
+        "after": 0.9135542444272665
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.014546649124198
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 576.0
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-006-P5-01",
+    "scene": "Scene-006",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "source_mix",
+        "index": "0",
+        "path": [
+          1,
+          0
+        ],
+        "after": 0.9135542444272665
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.014546649124198
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 576.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.178671393239807
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.165
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-005-P1-01",
+    "scene": "Scene-005",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 873.0313476076252
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-005-P3-01",
+    "scene": "Scene-005",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 873.0313476076252
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0835201157149141
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": -5.653155898959234
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-005-P5-01",
+    "scene": "Scene-005",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 873.0313476076252
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0835201157149141
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": -5.653155898959234
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": -17.57259487744744
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-001-P1-01",
+    "scene": "Scene-001",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.066950788790447
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-001-P3-01",
+    "scene": "Scene-001",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.066950788790447
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.22434313668551653
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-001-P5-01",
+    "scene": "Scene-001",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.066950788790447
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.22434313668551653
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.4290765139113641
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.172461584968342
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-017-P1-01",
+    "scene": "Scene-017",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.1697815160724235
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-017-P3-01",
+    "scene": "Scene-017",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.1697815160724235
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.067734420882677
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-017-P5-01",
+    "scene": "Scene-017",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.1697815160724235
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.067734420882677
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": -0.975657812101198
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-013-P1-01",
+    "scene": "Scene-013",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 8.0
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-013-P3-01",
+    "scene": "Scene-013",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 8.0
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.0970954736296472
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -1.4029391194524994
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-013-P5-01",
+    "scene": "Scene-013",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 8.0
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.0970954736296472
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -1.4029391194524994
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.3603568871459968
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13245490779714936
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-019-P1-01",
+    "scene": "Scene-019",
+    "tier": "P1",
+    "cold": false,
+    "changes": [
+      {
+        "field": "dressing_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-019-P3-01",
+    "scene": "Scene-019",
+    "tier": "P3",
+    "cold": false,
+    "changes": [
+      {
+        "field": "dressing_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.074362653203635
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13180435045789668
+      }
+    ]
+  },
+  {
+    "id": "T2R-Scene-019-P5-01",
+    "scene": "Scene-019",
+    "tier": "P5",
+    "cold": false,
+    "changes": [
+      {
+        "field": "dressing_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.074362653203635
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13180435045789668
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": -11.716876952129855
+      }
+    ]
+  }
+]

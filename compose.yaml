@@ -1,0 +1,10 @@
+services:
+  benchmark:
+    build: .
+    image: qcalgym:release
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./runs:/runs
+    command: ["serve", "--task", "${TASK:-V4-Scene-001-EASY-01}", "--seed", "${SEED:-0}"]
+    stop_grace_period: 30m

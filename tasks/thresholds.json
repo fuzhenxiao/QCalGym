@@ -1,0 +1,7 @@
+{
+  "single": 0.002,
+  "parallel": 0.004,
+  "idle": 0.001,
+  "two_qubit": 0.02,
+  "readout": 0.03
+}

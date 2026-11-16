@@ -1,0 +1,2820 @@
+[
+  {
+    "id": "V4-Scene-001-EASY-01",
+    "scene": "Scene-001",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.066950788790447
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-001-STANDARD-01",
+    "scene": "Scene-001",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 0.35
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.7794534530875454
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": 11.072471854375095
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-001-HARD-01",
+    "scene": "Scene-001",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.4290765139113641
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.172461584968342
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 700.0
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 14.0
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.22434313668551653
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-001-COLD-01",
+    "scene": "Scene-001",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-002-EASY-01",
+    "scene": "Scene-002",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-002-STANDARD-01",
+    "scene": "Scene-002",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3600.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.056603056022652
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.165
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.175432831483628
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-002-HARD-01",
+    "scene": "Scene-002",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0722021441238985
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": 15.239306120114339
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-002-COLD-01",
+    "scene": "Scene-002",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-003-EASY-01",
+    "scene": "Scene-003",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 36.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-003-STANDARD-01",
+    "scene": "Scene-003",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.179116925545862
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.070920509390337
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-003-HARD-01",
+    "scene": "Scene-003",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.1729622148414425
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13155984502207602
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 0.35
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-003-COLD-01",
+    "scene": "Scene-003",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-004-EASY-01",
+    "scene": "Scene-004",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.12854456824512536
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-004-STANDARD-01",
+    "scene": "Scene-004",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -1.184672427465191
+      },
+      {
+        "field": "drag",
+        "index": "1",
+        "path": [],
+        "after": -1.2374319083205685
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.08307462805456887
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": 4.086508867329605
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-004-HARD-01",
+    "scene": "Scene-004",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": 2.024803302959351
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 4.994164297355999
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.7189775046210303
+      },
+      {
+        "field": "iq_threshold",
+        "index": "1",
+        "path": [],
+        "after": 1.5129037124315508
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.8770137385316739
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.3006818645240545
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-004-COLD-01",
+    "scene": "Scene-004",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-005-EASY-01",
+    "scene": "Scene-005",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 873.0313476076252
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-005-STANDARD-01",
+    "scene": "Scene-005",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_q",
+        "index": "1",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "lo_freq",
+        "index": "1",
+        "path": [],
+        "after": 5.011877041274783
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": 5.32725163751309
+      },
+      {
+        "field": "iq_threshold",
+        "index": "1",
+        "path": [],
+        "after": -0.17249871770044428
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-005-HARD-01",
+    "scene": "Scene-005",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 611.1219433253376
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": -17.57259487744744
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.165
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": -5.653155898959234
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0835201157149141
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-005-COLD-01",
+    "scene": "Scene-005",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-006-EASY-01",
+    "scene": "Scene-006",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "source_mix",
+        "index": "0",
+        "path": [
+          1,
+          0
+        ],
+        "after": 0.9135542444272665
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-006-STANDARD-01",
+    "scene": "Scene-006",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": 1.2445795541387268
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 2.0874887232226107
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.158535946007683
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 112.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-006-HARD-01",
+    "scene": "Scene-006",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.178671393239807
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.165
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.014546649124198
+      },
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": 2.19416531757445
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.08666051205401848
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 576.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-006-COLD-01",
+    "scene": "Scene-006",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-007-EASY-01",
+    "scene": "Scene-007",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "1",
+        "path": [],
+        "after": 0.23238043390359808
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-007-STANDARD-01",
+    "scene": "Scene-007",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_freq",
+        "index": "1",
+        "path": [],
+        "after": 7.228805882331048
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.165
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "1",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": -0.5291964191414642
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-007-HARD-01",
+    "scene": "Scene-007",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": -7.395995922056468
+      },
+      {
+        "field": "mixer_skew",
+        "index": "1",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "sizzle_rise",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 48.0
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 60.0
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.08385992100559216
+      },
+      {
+        "field": "mixer_gain",
+        "index": "1",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "1",
+        "path": [],
+        "after": -0.04
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-007-COLD-01",
+    "scene": "Scene-007",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-008-EASY-01",
+    "scene": "Scene-008",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 1.7
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-008-STANDARD-01",
+    "scene": "Scene-008",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "ampm_compensation",
+        "index": "1",
+        "path": [],
+        "after": -6.844813871871109
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 576.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "1",
+        "path": [],
+        "after": 7.238736841488087
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-008-HARD-01",
+    "scene": "Scene-008",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 112.0
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": 1.0337956136024846
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 700.0
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.9349504007070586
+      },
+      {
+        "field": "mixer_skew",
+        "index": "1",
+        "path": [],
+        "after": -0.4
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-008-COLD-01",
+    "scene": "Scene-008",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-009-EASY-01",
+    "scene": "Scene-009",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.06
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-009-STANDARD-01",
+    "scene": "Scene-009",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.5959252252417087
+      },
+      {
+        "field": "pi_amp",
+        "index": "1",
+        "path": [],
+        "after": 0.24023633368701386
+      },
+      {
+        "field": "sizzle_rise",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 48.0
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.2194603138283038
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-009-HARD-01",
+    "scene": "Scene-009",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "sizzle_freq",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 5.092030057196639
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "1",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.194763611690109
+      },
+      {
+        "field": "drive_freq",
+        "index": "1",
+        "path": [],
+        "after": 4.873600325187027
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.3760256411044959
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-009-COLD-01",
+    "scene": "Scene-009",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-010-EASY-01",
+    "scene": "Scene-010",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "channel_delay",
+        "index": "1",
+        "path": [],
+        "after": -21.51446857352027
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-010-STANDARD-01",
+    "scene": "Scene-010",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "1",
+        "path": [],
+        "after": 11.0
+      },
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 0.13605913004077932
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 1100.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "1",
+        "path": [],
+        "after": 7.2439030097852655
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-010-HARD-01",
+    "scene": "Scene-010",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 7.0
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.6440166791944728
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 1.6
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.2820761629070447
+      },
+      {
+        "field": "cr_rise",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 6.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-010-COLD-01",
+    "scene": "Scene-010",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-011-EASY-01",
+    "scene": "Scene-011",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 20000.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-011-STANDARD-01",
+    "scene": "Scene-011",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": -0.26068878118188865
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": -3.38863219607356
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.161947079156434
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.165
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-011-HARD-01",
+    "scene": "Scene-011",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": -0.18399760122808717
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.165
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3000.0
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.5829527689944496
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "1",
+        "path": [],
+        "after": 0.35
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 2.0
+      },
+      {
+        "field": "mixer_gain",
+        "index": "1",
+        "path": [],
+        "after": 1.6
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-011-COLD-01",
+    "scene": "Scene-011",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-012-EASY-01",
+    "scene": "Scene-012",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.19481408215010146
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-012-STANDARD-01",
+    "scene": "Scene-012",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_rise",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 6.0
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 528.0
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.003243956902925
+      },
+      {
+        "field": "readout_freq",
+        "index": "1",
+        "path": [],
+        "after": 7.240704004471774
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-012-HARD-01",
+    "scene": "Scene-012",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "1",
+        "path": [],
+        "after": 0.35
+      },
+      {
+        "field": "drag",
+        "index": "1",
+        "path": [],
+        "after": 1.4878165417838203
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3000.0
+      },
+      {
+        "field": "pi_amp",
+        "index": "1",
+        "path": [],
+        "after": 0.28908997221180804
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "1",
+        "path": [],
+        "after": 6.458181702793089
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 2.008867483299656
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.3380277362487045
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-012-COLD-01",
+    "scene": "Scene-012",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-013-EASY-01",
+    "scene": "Scene-013",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 8.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-013-STANDARD-01",
+    "scene": "Scene-013",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 4.990769851828903
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.982391473360045
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-013-HARD-01",
+    "scene": "Scene-013",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.0970954736296472
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.3603568871459968
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13245490779714936
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.056225169257609
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -1.4029391194524994
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-013-COLD-01",
+    "scene": "Scene-013",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-014-EASY-01",
+    "scene": "Scene-014",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "frequency"
+        ],
+        "after": 0.03651908548911997
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-014-STANDARD-01",
+    "scene": "Scene-014",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.4304483550998382
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 2.5833936700598397
+      },
+      {
+        "field": "coupler_flux_bias",
+        "index": "0",
+        "path": [],
+        "after": 0.029494283170866997
+      },
+      {
+        "field": "pi_duration",
+        "index": "1",
+        "path": [],
+        "after": 72.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-014-HARD-01",
+    "scene": "Scene-014",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 72.0
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "rise_fractions",
+          2
+        ],
+        "after": 0.11
+      },
+      {
+        "field": "coupler_flux_bias",
+        "index": "0",
+        "path": [],
+        "after": -0.019771083504327526
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "1",
+        "path": [],
+        "after": 1.8
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "frames",
+          0
+        ],
+        "after": 4.398628281906694
+      },
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": 0.6409379256915942
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.005341148129377
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-014-COLD-01",
+    "scene": "Scene-014",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-015-EASY-01",
+    "scene": "Scene-015",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "flux_mix",
+        "index": "0",
+        "path": [
+          1,
+          2
+        ],
+        "after": 0.17838318194761016
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-015-STANDARD-01",
+    "scene": "Scene-015",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.385305122400155
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "rise_fractions",
+          1
+        ],
+        "after": 0.13
+      },
+      {
+        "field": "coupler_flux_bias",
+        "index": "0",
+        "path": [],
+        "after": -0.0181030812432685
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 0.55
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-015-HARD-01",
+    "scene": "Scene-015",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 14.0
+      },
+      {
+        "field": "coupler_flux_bias",
+        "index": "0",
+        "path": [],
+        "after": -0.03681889512815598
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "amplitudes",
+          0
+        ],
+        "after": -0.04411357011735377
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.37412698412698414
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "duration"
+        ],
+        "after": 264.77568
+      },
+      {
+        "field": "iq_threshold",
+        "index": "1",
+        "path": [],
+        "after": 1.131944093765933
+      },
+      {
+        "field": "drag",
+        "index": "1",
+        "path": [],
+        "after": -1.6546134730879878
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-015-COLD-01",
+    "scene": "Scene-015",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-016-EASY-01",
+    "scene": "Scene-016",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "flux_inverse_tau",
+        "index": "2",
+        "path": [],
+        "after": 8.859936036085745
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-016-STANDARD-01",
+    "scene": "Scene-016",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "amplitudes",
+          2
+        ],
+        "after": 0.29298070563379824
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.1810095187827596
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "rise_fractions",
+          2
+        ],
+        "after": 0.38
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "phase"
+        ],
+        "after": -0.8964756972601444
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-016-HARD-01",
+    "scene": "Scene-016",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "flux_inverse_tail",
+        "index": "2",
+        "path": [],
+        "after": 0.1593845137792207
+      },
+      {
+        "field": "flux_bias",
+        "index": "0",
+        "path": [],
+        "after": -0.04111897765393317
+      },
+      {
+        "field": "pi_amp",
+        "index": "1",
+        "path": [],
+        "after": 0.2402522379189556
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "duration"
+        ],
+        "after": 220.32
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "amplitudes",
+          0
+        ],
+        "after": 0.037696775166512736
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 0.35
+      },
+      {
+        "field": "native_flux_gate",
+        "index": "0",
+        "path": [
+          "settle"
+        ],
+        "after": 20.436966627614517
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-016-COLD-01",
+    "scene": "Scene-016",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-017-EASY-01",
+    "scene": "Scene-017",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.1697815160724235
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-017-STANDARD-01",
+    "scene": "Scene-017",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.5077579046834795
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.15280336446518117
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-017-HARD-01",
+    "scene": "Scene-017",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": -0.975657812101198
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": 5.814383805730858
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 4.989256378843923
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3000.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.067734420882677
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-017-COLD-01",
+    "scene": "Scene-017",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-018-EASY-01",
+    "scene": "Scene-018",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 1.6
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-018-STANDARD-01",
+    "scene": "Scene-018",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.086118479862205
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": -0.4
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3000.0
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": 15.036571703746237
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-018-HARD-01",
+    "scene": "Scene-018",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": -19.404381547220577
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3000.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.161594364941166
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.007947863372986
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": -0.4
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.952942428019971
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.08200720703589
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-018-COLD-01",
+    "scene": "Scene-018",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-019-EASY-01",
+    "scene": "Scene-019",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "dressing_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-019-STANDARD-01",
+    "scene": "Scene-019",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.386841196880273
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.4313596924076618
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 4.996789253052986
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-019-HARD-01",
+    "scene": "Scene-019",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "dressing_amp",
+        "index": "0",
+        "path": [],
+        "after": 1.0499999999999998
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": -11.716876952129855
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.074362653203635
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13180435045789668
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.8
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-019-COLD-01",
+    "scene": "Scene-019",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-020-EASY-01",
+    "scene": "Scene-020",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 36.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-020-STANDARD-01",
+    "scene": "Scene-020",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.072665927471468
+      },
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.005175522498279
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.162697898500687
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 66.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-020-HARD-01",
+    "scene": "Scene-020",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 66.0
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": -6.484532168695814
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": -0.3057337440611727
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.6454809970182067
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0705205048472655
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-020-COLD-01",
+    "scene": "Scene-020",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-021-EASY-01",
+    "scene": "Scene-021",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": 4.520833333333336
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-021-STANDARD-01",
+    "scene": "Scene-021",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "lo_freq",
+        "index": "0",
+        "path": [],
+        "after": 4.996473030734259
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": -0.04
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3600.0
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": -17.295000759196675
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-021-HARD-01",
+    "scene": "Scene-021",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 700.0
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.13084258679180313
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": -0.6235393919729069
+      },
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": 0.5106568419864499
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-021-COLD-01",
+    "scene": "Scene-021",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-022-EASY-01",
+    "scene": "Scene-022",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0709526922075465
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-022-STANDARD-01",
+    "scene": "Scene-022",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.7165318709700828
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 700.0
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.075282673375985
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-022-HARD-01",
+    "scene": "Scene-022",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0643448438328615
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.7682382172213895
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.771865766966423
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": 0.04
+      },
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 1.6
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-022-COLD-01",
+    "scene": "Scene-022",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-023-EASY-01",
+    "scene": "Scene-023",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4235608931375371
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-023-STANDARD-01",
+    "scene": "Scene-023",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "ampm_compensation",
+        "index": "0",
+        "path": [],
+        "after": 5.5034735338003395
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.5242175862307645
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": -0.038919081568795526
+      },
+      {
+        "field": "channel_delay",
+        "index": "1",
+        "path": [],
+        "after": 16.8654292392066
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-023-HARD-01",
+    "scene": "Scene-023",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "ampm_compensation",
+        "index": "1",
+        "path": [],
+        "after": 3.098668235972884
+      },
+      {
+        "field": "drive_freq",
+        "index": "1",
+        "path": [],
+        "after": 4.940175543067254
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -1.3544837785899466
+      },
+      {
+        "field": "mixer_dc_i",
+        "index": "0",
+        "path": [],
+        "after": 0.0383296590586865
+      },
+      {
+        "field": "mixer_dc_q",
+        "index": "0",
+        "path": [],
+        "after": -0.038919081568795526
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 176.0
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 1.4316661163652942
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-023-COLD-01",
+    "scene": "Scene-023",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-024-EASY-01",
+    "scene": "Scene-024",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "channel_delay",
+        "index": "1",
+        "path": [],
+        "after": -33.37141982543963
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-024-STANDARD-01",
+    "scene": "Scene-024",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.17379624717107542
+      },
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.24565050483062406
+      },
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.8
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 3000.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-024-HARD-01",
+    "scene": "Scene-024",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 1.5
+      },
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 576.0
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": 1.4079413960061697
+      },
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.20470875402552002
+      },
+      {
+        "field": "pi_amp",
+        "index": "1",
+        "path": [],
+        "after": 0.5888243886595222
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -1.401965886810873
+      },
+      {
+        "field": "anharm",
+        "index": "0",
+        "path": [],
+        "after": -0.495
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-024-COLD-01",
+    "scene": "Scene-024",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-025-EASY-01",
+    "scene": "Scene-025",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_amp",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.23625336884266152
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-025-STANDARD-01",
+    "scene": "Scene-025",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "mixer_skew",
+        "index": "0",
+        "path": [],
+        "after": 0.4
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 22.0
+      },
+      {
+        "field": "anharm",
+        "index": "1",
+        "path": [],
+        "after": -0.165
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-025-HARD-01",
+    "scene": "Scene-025",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "pi_amp",
+        "index": "1",
+        "path": [],
+        "after": 0.08807282556204599
+      },
+      {
+        "field": "lo_freq",
+        "index": "1",
+        "path": [],
+        "after": 4.98840037548808
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.7915828552050566
+      },
+      {
+        "field": "iq_threshold",
+        "index": "1",
+        "path": [],
+        "after": 1.0249674680946508
+      },
+      {
+        "field": "drag",
+        "index": "1",
+        "path": [],
+        "after": -1.0255998123484984
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 1100.0
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": -0.6890721765702283
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-025-COLD-01",
+    "scene": "Scene-025",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-026-EASY-01",
+    "scene": "Scene-026",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 16.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-026-STANDARD-01",
+    "scene": "Scene-026",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "iq_angle",
+        "index": "1",
+        "path": [],
+        "after": 1.553170649323771
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.052499205067877
+      },
+      {
+        "field": "cr_phase",
+        "index": "(0, 1)",
+        "path": [],
+        "after": -0.7253463073817525
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-026-HARD-01",
+    "scene": "Scene-026",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "cr_duration",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 480.0
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.182143247107823
+      },
+      {
+        "field": "iq_angle",
+        "index": "0",
+        "path": [],
+        "after": 1.5577203981752947
+      },
+      {
+        "field": "cr_drag",
+        "index": "(0, 1)",
+        "path": [],
+        "after": 1.3384830743512282
+      },
+      {
+        "field": "pi_amp",
+        "index": "0",
+        "path": [],
+        "after": 0.08430197455850436
+      },
+      {
+        "field": "mixer_gain",
+        "index": "1",
+        "path": [],
+        "after": 0.5
+      },
+      {
+        "field": "drive_freq",
+        "index": "0",
+        "path": [],
+        "after": 5.0721897056489595
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-026-COLD-01",
+    "scene": "Scene-026",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  },
+  {
+    "id": "V4-Scene-027-EASY-01",
+    "scene": "Scene-027",
+    "tier": "EASY",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.192584162527254
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-027-STANDARD-01",
+    "scene": "Scene-027",
+    "tier": "STANDARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.176490913985266
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 22.0
+      },
+      {
+        "field": "readout_duration",
+        "index": "0",
+        "path": [],
+        "after": 1500.0
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -0.20877848764975127
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-027-HARD-01",
+    "scene": "Scene-027",
+    "tier": "HARD",
+    "cold": false,
+    "changes": [
+      {
+        "field": "readout_amplitude",
+        "index": "0",
+        "path": [],
+        "after": 3.6
+      },
+      {
+        "field": "channel_delay",
+        "index": "0",
+        "path": [],
+        "after": 14.5677449432736
+      },
+      {
+        "field": "drag",
+        "index": "0",
+        "path": [],
+        "after": -0.8298131485500863
+      },
+      {
+        "field": "iq_threshold",
+        "index": "0",
+        "path": [],
+        "after": -1.6275129495292515
+      },
+      {
+        "field": "readout_freq",
+        "index": "0",
+        "path": [],
+        "after": 7.189804408823882
+      },
+      {
+        "field": "mixer_gain",
+        "index": "0",
+        "path": [],
+        "after": 1.6
+      },
+      {
+        "field": "pi_duration",
+        "index": "0",
+        "path": [],
+        "after": 22.0
+      }
+    ]
+  },
+  {
+    "id": "V4-Scene-027-COLD-01",
+    "scene": "Scene-027",
+    "tier": "COLD",
+    "cold": true,
+    "changes": []
+  }
+]
